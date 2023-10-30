@@ -141,8 +141,6 @@ void setup() {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;); // Don't proceed, loop forever
     }
-  
-    display.display();
     delay(2000); // Pause for 2 seconds
 
     // Clear the buffer
